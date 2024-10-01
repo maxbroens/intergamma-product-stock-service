@@ -36,3 +36,6 @@ curl --location 'http://localhost:8080/api/products' \
 ```
 
 Use one of the product ids perform stock related calls. See API documentation.
+For this stage of the project, the create-drop strategy is being used for the database. 
+This means that the database will be recreated every time the application is started. 
+This means invoking the GET call to retrieve all products will be needed each time the application is started.
